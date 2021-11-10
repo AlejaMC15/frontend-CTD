@@ -1,0 +1,112 @@
+* {
+margin: 0;
+}
+
+.language {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    padding: 0 5%;
+}
+
+.language ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.menu img {
+    height: 23px
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.sectionOne {
+    background-image: url(../images/bowl-and-pet-daities-on-green-background1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 92%;
+}
+
+.text div {
+    text-align: center;
+}
+
+.text h2 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3%;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+.text button {
+    height: 49px;
+    margin-top: 3%;
+    background: #F0A83E;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.sectionTwo {
+    text-align: center;
+}
+
+.listProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listProducts div {
+    background: #FBFAF6;
+    margin: 6px;
+}
+
+.listProducts img {
+    margin: 10px;
+}
+
+.sectionThree h2 {
+    text-align: center;
+    margin: 5%;
+}
+
+.sectionThree p {
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 1%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.sectionThree .buttons {
+    display: flex;
+    justify-content: center;
+}

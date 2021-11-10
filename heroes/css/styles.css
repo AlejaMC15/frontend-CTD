@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+header .dcnto {
+    background-color: #1CD1B0;
+    height: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .title {
+    background-color: #00669F;
+    height: 101px;
+    font-family: 'Roboto', sans-serif;
+}
