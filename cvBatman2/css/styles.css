@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.sectionOne {
+    background: #E6E6E6;
+    justify-content: center;
+}
+
+.sectionOne .nav img {
+    margin: 0 auto;
+    display: flex;
+}
+
+h1 {
+    background: #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
+
+.sectionTwo {
+    background: #C4C4C4;
+}
+
+.sectionFour ul li{
+    display: flex;
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+.sectionFive ul li{
+    display: flex;
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+.info{
+    padding: 0 1%;
+}
+
+h2 {
+    font-size: 20px;
+    color: #005677;
+    background: #C4C4C4;
+    padding-left: 1%;
+}
+
+li span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #005677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.sobreMi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+
+footer span {
+    margin-right: 2%;
+}
+
+footer img {
+    margin-right: 2%;
+}

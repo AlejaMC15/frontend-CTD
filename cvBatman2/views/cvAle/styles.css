@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    border: 5px solid black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5 );
+    margin: 2% 5%;
+}
+
+.columOne {
+    background: rgba(231, 134, 233, 0.4);
+    padding: 2%;
+    width: 30%;
+    border-right: 4px solid black;
+}
+
+.columOne h2, h3{
+    text-align: center;
+}
+
+.columOne div{
+    margin-bottom: 20%;
+}
+
+.imgProfile {
+    border: 1px solid black;
+    background: white;
+    width: 100%
+}
+
+.listInfo ol{
+    list-style: none;
+    padding: 3px;
+}
+
+.listInfo li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+    justify-content: flex-start;
+}
+
+.columTwo {
+    margin: 0 2%;
+}
+
+hr {
+    height: 4px;
+    background: gainsboro;
+    border: transparent;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
