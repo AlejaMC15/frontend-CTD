@@ -1,112 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 * {
-margin: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .language {
-    background-color: #222222;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    font-size: 10px;
-    padding: 0 5%;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  padding: 0 5%;
 }
 
-.language ul{
-    display: flex;
-    list-style: none;
+.language ul {
+  display: flex;
+  list-style: none;
 }
 
 .menu {
-    background-color: #F0A83E;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
 }
 
 .menu img {
-    height: 23px
+  height: 23px;
 }
 
-.menu ul{
-    display: flex;
-    list-style: none;
+.menu ul {
+  display: flex;
+  list-style: none;
 }
 
 .sectionOne {
-    background-image: url(../images/bowl-and-pet-daities-on-green-background1.png);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+  background-image: url(../images/bowl-and-pet-daities-on-green-background1.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
 }
 
 .text {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 92%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 92%;
 }
 
 .text div {
-    text-align: center;
+  text-align: center;
 }
 
 .text h2 {
-    background-color: white;
-    border-radius: 5px;
-    padding: 3%;
-    width: 100%;
-    font-size: 30px;
-    margin-bottom: 3%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3%;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 3%;
 }
 
 .text button {
-    height: 49px;
-    margin-top: 3%;
-    background: #F0A83E;
-    border-radius: 5px;
-    border-color: transparent;
+  height: 49px;
+  margin-top: 3%;
+  background: #f0a83e;
+  border-radius: 5px;
+  border-color: transparent;
 }
 
 .sectionTwo {
-    text-align: center;
+  text-align: center;
 }
 
 .listProducts {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
 }
 
 .listProducts div {
-    background: #FBFAF6;
-    margin: 6px;
+  background: #fbfaf6;
+  margin: 6px;
+  padding-bottom: 1%;
 }
 
 .listProducts img {
-    margin: 10px;
+  margin: 10px;
+}
+
+.listProducts span {
+  color: #f0a83e;
+  font-weight: bold;
+  padding-bottom: 2%;
 }
 
 .sectionThree h2 {
-    text-align: center;
-    margin: 5%;
+  text-align: center;
+  margin: 5%;
 }
 
-.sectionThree p {
-    width: 340px;
-    height: 40px;
-    background-color: #3C2313;
-    border-radius: 15px;
-    margin: auto;
-    margin-bottom: 1%;
-    color: white;
-    display: flex;
-    align-items: center;
+.sectionThree span {
+  width: 340px;
+  height: 40px;
+  background-color: #3c2313;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 1%;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  padding-left: 2%;
 }
 
 .sectionThree .buttons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.imgHuella {
+  margin: 3%;
+}
+
+.containerPdcts h2 {
+  margin-bottom: 2%;
+}
+
+.reset {
+  width: 110px;
+  height: 34px;
+  left: calc(50% - 110px / 2 - 52px);
+  top: calc(50% - 34px / 2 + 453.5px);
+  background: #8a8787;
+  border-radius: 15px;
+  border-color: transparent;
+  margin-right: 1%;
+}
+
+.send {
+  width: 110px;
+  height: 34px;
+  left: calc(50% - 110px / 2 + 64px);
+  top: calc(50% - 34px / 2 + 453.5px);
+  border-color: transparent;
+  background: #f0a83e;
+  border-radius: 15px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lineOne {
+  height: 60px;
+  background: #f0a83e;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.lineOne div {
+  align-items: center;
+}
+
+.lineTwo {
+  height: 284px;
+  left: calc(50% - 1024px / 2);
+  bottom: 17px;
+  background: #3c2313;
+}
+
+.lineThree {
+  height: 20px;
+  left: calc(50% - 1024px / 2);
+  bottom: 0px;
+  background: #222222;
+}
+
+.lineTwo div {
+  display: block;
 }
