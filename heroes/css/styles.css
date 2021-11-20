@@ -3,6 +3,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 header .dcnto {
   background-color: #1cd1b0;
   height: 38px;
@@ -24,13 +30,14 @@ header .title {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .cards {
   background-color: rgba(128, 128, 128, 0.2);
-  margin: 2%;
+  margin: 5px;
   border-radius: 10px;
-  width: 300px;
+  width: min-content;
 }
 
 .image {
@@ -64,11 +71,20 @@ p {
 
 footer {
   background-color: #00669f;
-  display: flex;
-  align-items: center;
   padding: 1%;
   color: white;
-  bottom: 0;
-  width: 100%;
-  position: relative;
+  margin-top: auto;
+}
+
+.cards4 {
+  background-color: rgba(128, 128, 128, 0.2);
+  margin: 2%;
+  border-radius: 10px;
+  width: 300px;
+}
+
+@media (max-width: 652px) {
+  .cards4 {
+    display: none;
+  }
 }
