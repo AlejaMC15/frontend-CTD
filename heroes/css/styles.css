@@ -3,12 +3,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
 header .dcnto {
   background-color: #1cd1b0;
   height: 38px;
@@ -28,27 +22,131 @@ header .title {
 
 .containerCards {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .cards {
-  background-color: rgba(128, 128, 128, 0.2);
   margin: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   border-radius: 10px;
-  width: min-content;
+}
+
+.cardsHarley {
+  margin: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.cards .imgBackground {
+  width: 100%;
+}
+
+.cardsHarley .imgBackground {
+  width: 100%;
+}
+
+.backgroundBatman {
+  width: 100%;
+  height: 183px;
+  background-image: url("../img/backgroundBatman.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.backgroundBatman img {
+  width: 8%;
+  margin: 5%;
+}
+
+.backgroundWonder {
+  width: 100%;
+  height: 183px;
+  background-image: url("../img/backgroundWonder.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.backgroundWonder img {
+  width: 8%;
+  margin: 5%;
+}
+
+.backgroundSuper {
+  width: 100%;
+  height: 183px;
+  background-image: url("../img/backgroundSuper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.backgroundSuper img {
+  width: 8%;
+  margin: 5%;
+}
+
+.backgroundHarley {
+  width: 100%;
+  height: 183px;
+  background-image: url("../img/backgroundHarley2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.backgroundHarley img {
+  width: 8%;
+  margin: 5%;
 }
 
 .image {
   border-radius: 50%;
   display: block;
   margin: auto;
-  margin-top: -65px;
+  margin-top: -63px;
+  width: 120px;
+}
+
+.imageSuper {
+  border-radius: 50%;
+  margin-top: -63px;
+  height: 124px;
+  background-image: url(../img/superman.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
   text-align: center;
+  padding-top: 5%;
 }
 
 p {
@@ -60,31 +158,63 @@ p {
   justify-content: center;
   align-items: center;
   margin: 5%;
+  width: 30%;
+  padding: 2%;
+  background-color: #00669f;
+  border-color: transparent;
+  color: white;
 }
 
 .btn button {
   background-color: #00669f;
   border-color: transparent;
   color: white;
-  padding: 2%;
 }
 
 footer {
   background-color: #00669f;
   padding: 1%;
   color: white;
-  margin-top: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.cards4 {
-  background-color: rgba(128, 128, 128, 0.2);
-  margin: 2%;
-  border-radius: 10px;
-  width: 300px;
+footer img {
+  width: 80px;
 }
 
-@media (max-width: 652px) {
-  .cards4 {
+.textFooter {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgFooter {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 760px) {
+  .cards {
+    width: 40%;
+  }
+  .cardsHarley {
+    width: 40%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards {
+    width: 90%;
+  }
+  .cardsHarley {
     display: none;
+  }
+}
+
+@media (max-width: 374px) {
+  .imageSuper {
+    background-image: url("../img/superman2.png");
   }
 }
